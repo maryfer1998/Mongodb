@@ -1,2 +1,4 @@
 use("sample_training")
+//Nombre de ciudades de mongodb
+
 db.zips.find({ state: "NY" }).count()
